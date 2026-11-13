@@ -252,3 +252,33 @@ if (isPrime(number)) {
 } else {
     console.log("Not a prime number");
 }
+
+// ================== JavaScript Arrays. ========================
+
+   // Exercise 1 — Create an array _______ Easy
+
+   // Create an array named programmingLanguages containing:
+   // - JavaScript
+   // - Python
+   // - Java
+   // - PHP
+   // - C++
+   // Then print the entire array.
+
+let programingLanguages = ["JavaScript", "Python", "Java", "PHP", "C++"];
+console.log(programingLanguages);
+
+
+   // Exercise 2 — Access elements _________ Easy
+
+   // Using your array from Exercise 1:
+   //  1. Print the first language.
+   //  2. Print the third language.
+   //  3. Print the last language.
+   //  4. Print the total number of languages.
+
+let programingLanguages = ["JavaScript", "Python", "Java", "PHP", "C++"];
+console.log(programingLanguages[0]); //  1. Print the first language.
+console.log(programingLanguages[2]); //  2. Print the third language.
+console.log(programingLanguages[4]); //  3. Print the last language.
+console.log(programingLanguages.length);

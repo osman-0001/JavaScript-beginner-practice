@@ -231,3 +231,24 @@ switch (grade){
         console.log("lnvalid grade")
 }
 
+
+   // Write a JavaScript program that:
+   //  1. Stores a number in a variable.
+   //  2. Checks whether it is prime.
+   //  3. Prints either "Prime number" or "Not a prime number".
+
+let number = 17;
+
+function isPrime(n) {
+    if (n < 2) return false;
+    for (let i = 2; i <= Math.sqrt(n); i++) {
+        if (n % i === 0) return false;
+    }
+    return true;
+}
+
+if (isPrime(number)) {
+    console.log("Prime number");
+} else {
+    console.log("Not a prime number");
+}

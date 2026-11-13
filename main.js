@@ -282,3 +282,20 @@ console.log(programingLanguages[0]); //  1. Print the first language.
 console.log(programingLanguages[2]); //  2. Print the third language.
 console.log(programingLanguages[4]); //  3. Print the last language.
 console.log(programingLanguages.length);
+
+
+   // Exercise 3 — Update an element __________ Easy
+
+   // Create an array that get 3 value and Change the second value to a now value and print the updated array.
+    let fruits = ["Apple", "Banana", "Orange"];
+    fruits[1] = "Mango";
+    console.log(fruits);
+
+
+   // Exercise 4 — Use a loop _________ Medium
+
+   // Create an array of five student names and use a for loop to print each student's name.
+   let students = ["Ahmad", "Alex", "Jon", "Yaser", "Saeed"];
+   for(let i = 0; i < students.length; i++){
+    console.log(students[i]);
+   }
